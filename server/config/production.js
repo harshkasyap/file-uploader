@@ -7,7 +7,7 @@ module.exports = {
     fileRepository: {
         temporaryDirectory: "/usr/src/app/data/tmp",
         fileUploadDirectory: "/usr/src/app/data/uploads",
-        maxFileSizeInMB: 500
+        maxFileSizeInMB: 500000
     },
     logging: {
         level: "debug"

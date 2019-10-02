@@ -9,7 +9,7 @@ module.exports = {
     fileRepository: {
         fileUploadDirectory: path.resolve(path.join("data", "uploads")),
         temporaryDirectory: path.resolve(path.join("data", "tmp")),
-        maxFileSizeInMB: 500
+        maxFileSizeInMB: 500000
     },
     logging: {
         level: "debug"
